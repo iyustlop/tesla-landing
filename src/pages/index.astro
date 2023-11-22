@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import HeroSetion from '../components/HeroSection.astro'
+import ModelY from '../components/ModelY.astro';
+import Section from '../components/Section.astro';
+import Motorbike from '../components/Motorbike.astro';
+---
+
+<Layout title="Tesla Motors S.A.">
+	<LandingHeader />
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">	
+		<div class="snap-center">
+			<HeroSetion />
+		</div>
+		<div class="snap-center">
+			<ModelY />
+		</div>
+		<div class="snap-center">
+			<Motorbike />
+		</div>
+	</main>
+</Layout>
